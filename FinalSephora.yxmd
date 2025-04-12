@@ -1,0 +1,1338 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <Query>select * 
+from [SephoraProductReview].[dbo].[Reviews_1]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Query=select * 
+from [SephoraProd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="column1" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_String" />
+            <Field name="author_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_String" />
+            <Field name="rating" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="Double" />
+            <Field name="is_recommended" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="Bool" />
+            <Field name="helpfulness" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="Double" />
+            <Field name="total_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="Int32" />
+            <Field name="total_neg_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="Int32" />
+            <Field name="total_pos_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="Int32" />
+            <Field name="submission_time" size="10" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="review_text" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="review_title" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="skin_tone" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="eye_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="skin_type" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="hair_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="product_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="product_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="brand_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="V_WString" />
+            <Field name="price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_1]" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <Query>select * 
+from [SephoraProductReview].[dbo].[Reviews_2]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Query=select * 
+from [SephoraProd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="column1" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_String" />
+            <Field name="author_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_String" />
+            <Field name="rating" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="Double" />
+            <Field name="is_recommended" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="Bool" />
+            <Field name="helpfulness" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="Double" />
+            <Field name="total_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="Int32" />
+            <Field name="total_neg_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="Int32" />
+            <Field name="total_pos_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="Int32" />
+            <Field name="submission_time" size="10" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="review_text" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="review_title" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="skin_tone" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="eye_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="skin_type" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="hair_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="product_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="product_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="brand_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="V_WString" />
+            <Field name="price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_2]" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="186" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <Query>select * 
+from [SephoraProductReview].[dbo].[Reviews_3]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Query=select * 
+from [SephoraProd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="column1" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_String" />
+            <Field name="author_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_String" />
+            <Field name="rating" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="Double" />
+            <Field name="is_recommended" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="Bool" />
+            <Field name="helpfulness" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="Double" />
+            <Field name="total_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="Int32" />
+            <Field name="total_neg_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="Int32" />
+            <Field name="total_pos_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="Int32" />
+            <Field name="submission_time" size="10" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="review_text" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="review_title" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="skin_tone" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="eye_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="skin_type" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="hair_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="product_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="product_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="brand_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="V_WString" />
+            <Field name="price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_3]" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <Query>select * 
+from [SephoraProductReview].[dbo].[Reviews_4]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Query=select * 
+from [SephoraProd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="column1" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_String" />
+            <Field name="author_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_String" />
+            <Field name="rating" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="Double" />
+            <Field name="is_recommended" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="Bool" />
+            <Field name="helpfulness" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="Double" />
+            <Field name="total_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="Int32" />
+            <Field name="total_neg_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="Int32" />
+            <Field name="total_pos_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="Int32" />
+            <Field name="submission_time" size="10" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="review_text" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="review_title" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="skin_tone" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="eye_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="skin_type" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="hair_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="product_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="product_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="brand_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="V_WString" />
+            <Field name="price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_4]" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="234" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <Query>select * 
+from [SephoraProductReview].[dbo].[Reviews_5]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Query=select * 
+from [SephoraProd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="column1" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_String" />
+            <Field name="author_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_String" />
+            <Field name="rating" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="Double" />
+            <Field name="is_recommended" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="Bool" />
+            <Field name="helpfulness" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="Double" />
+            <Field name="total_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="Int32" />
+            <Field name="total_neg_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="Int32" />
+            <Field name="total_pos_feedback_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="Int32" />
+            <Field name="submission_time" size="10" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="review_text" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="review_title" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="skin_tone" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="eye_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="skin_type" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="hair_color" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="product_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="product_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="brand_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="V_WString" />
+            <Field name="price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[Reviews_5]" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="402" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_5abce80564ac45f8a453e99fd28951a7~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="390" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File />
+          <FormatSpecificOptions UseDcm="true" Format="23" RecordLimit="">
+            <SingleRowFetch>False</SingleRowFetch>
+            <Query>select * 
+from [SephoraProductReview].[dbo].[product_info]</Query>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <Table />
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Query=select * 
+from [SephoraProd...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="product_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="brand_id" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="brand_name" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="loves_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Int32" />
+            <Field name="rating" scale="4" size="7" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="FixedDecimal" />
+            <Field name="reviews" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Int32" />
+            <Field name="size" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="variation_type" size="50" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="variation_value" size="255" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="variation_desc" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="ingredients" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="FixedDecimal" />
+            <Field name="value_price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="FixedDecimal" />
+            <Field name="sale_price_usd" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="FixedDecimal" />
+            <Field name="limited_edition" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Bool" />
+            <Field name="new" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Bool" />
+            <Field name="online_only" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Bool" />
+            <Field name="out_of_stock" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Bool" />
+            <Field name="sephora_exclusive" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Bool" />
+            <Field name="highlights" size="16777216" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="primary_category" size="100" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="secondary_category" size="100" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="tertiary_category" size="100" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="V_String" />
+            <Field name="child_count" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="Int32" />
+            <Field name="child_max_price" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="FixedDecimal" />
+            <Field name="child_min_price" scale="2" size="12" source="File: select * &#xA;from [SephoraProductReview].[dbo].[product_info]" type="FixedDecimal" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="906" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="product_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="product_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_product_id" selected="True" rename="Right_product_id" input="Right_" />
+                <SelectField field="Right_product_name" selected="True" rename="Right_product_name" input="Right_" />
+                <SelectField field="Right_brand_name" selected="True" rename="Right_brand_name" input="Right_" />
+                <SelectField field="Right_rating" selected="True" rename="Right_rating" input="Right_" />
+                <SelectField field="Right_price_usd" selected="True" rename="Right_price_usd" input="Right_" />
+                <SelectField field="Right_author_id" selected="True" rename="Right_author_id" input="Right_" />
+                <SelectField field="Right_is_recommended" selected="True" rename="Right_is_recommended" input="Right_" />
+                <SelectField field="Right_total_feedback_count" selected="True" rename="Right_total_feedback_count" input="Right_" />
+                <SelectField field="Right_total_neg_feedback_count" selected="True" rename="Right_total_neg_feedback_count" input="Right_" />
+                <SelectField field="Right_total_pos_feedback_count" selected="True" rename="Right_total_pos_feedback_count" input="Right_" />
+                <SelectField field="Right_submission_time" selected="True" rename="Right_submission_time" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="978" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_8c24d2322e9c4fa283be0a9df89d96ad~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="978" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="author_id" selected="True" />
+            <SelectField field="rating" selected="True" />
+            <SelectField field="is_recommended" selected="True" />
+            <SelectField field="total_feedback_count" selected="True" />
+            <SelectField field="total_neg_feedback_count" selected="True" />
+            <SelectField field="total_pos_feedback_count" selected="True" />
+            <SelectField field="submission_time" selected="True" />
+            <SelectField field="product_id" selected="True" />
+            <SelectField field="product_name" selected="True" />
+            <SelectField field="brand_name" selected="True" />
+            <SelectField field="price_usd" selected="True" />
+            <SelectField field="brand_id" selected="True" />
+            <SelectField field="loves_count" selected="True" />
+            <SelectField field="reviews" selected="True" />
+            <SelectField field="limited_edition" selected="True" />
+            <SelectField field="new" selected="True" />
+            <SelectField field="online_only" selected="True" />
+            <SelectField field="out_of_stock" selected="True" />
+            <SelectField field="sephora_exclusive" selected="True" />
+            <SelectField field="primary_category" selected="True" />
+            <SelectField field="secondary_category" selected="True" />
+            <SelectField field="child_count" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="1038" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">True</Value>
+          <Value name="List Box (11)">"author_id","rating","is_recommended","total_feedback_count","total_neg_feedback_count","total_pos_feedback_count","submission_time","product_id","product_name","brand_name","price_usd","brand_id","loves_count","reviews","limited_edition","new","online_only","out_of_stock","sephora_exclusive","primary_category","secondary_category","child_count"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">title</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1290" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_e49d7008c371407c9f79c86f637966e8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1314" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="product_id" action="GroupBy" rename="product_id" />
+            <SummarizeField field="rating" action="Avg" rename="Avg_rating" />
+            <SummarizeField field="reviews" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1314" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="primary_category" action="GroupBy" rename="primary_category" />
+            <SummarizeField field="secondary_category" action="GroupBy" rename="secondary_category" />
+            <SummarizeField field="rating" action="Avg" rename="Avg_rating" />
+            <SummarizeField field="reviews" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1314" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="rating" action="GroupBy" rename="rating" />
+            <SummarizeField field="rating" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1482" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_4ccfb00a3701427eb35096117a7ed239~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1482" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_033764a2b500414aa7abb5755287a097~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1482" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_e20558fb8cf64228995fc96212ca0933~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1674" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [rating] &gt; 3 THEN 'Positive' &#xA;ELSEIF [rating] = 3 THEN 'Neutral' &#xA;ELSE 'Negative' ENDIF&#xA;" field="Customer Sentiment" size="64" type="String" enabled="true" />
+            <FormulaField expression="IF [Avg_rating] &gt; 4 THEN 'Top Rated' &#xA;ELSE 'Standard' ENDIF&#xA;" field="Top Rated" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer Sentiment = IF [rating] &gt; 3 THEN 'Positive' 
+ELSEIF [rating] = 3 THEN '...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1554" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="product_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="product_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_product_id" selected="True" rename="Right_product_id" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1650" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_cfb8c2decc124b52b67f05ed735fa8af~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1794" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_d5d12720fb0a4a5f9df58735a510442c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1926" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\asira\Downloads\archive (4)\alteryx output.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>alteryx output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1794" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Right_product_id" selected="False" />
+            <SelectField field="Avg_rating" selected="False" />
+            <SelectField field="Count" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="author_id" selected="True" />
+            <SelectField field="rating" selected="True" />
+            <SelectField field="is_recommended" selected="True" />
+            <SelectField field="total_feedback_count" selected="True" />
+            <SelectField field="total_neg_feedback_count" selected="True" />
+            <SelectField field="total_pos_feedback_count" selected="True" />
+            <SelectField field="submission_time" selected="True" />
+            <SelectField field="product_id" selected="True" />
+            <SelectField field="product_name" selected="True" />
+            <SelectField field="brand_name" selected="True" />
+            <SelectField field="price_usd" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="product_id" selected="True" />
+            <SelectField field="product_name" selected="True" />
+            <SelectField field="brand_id" selected="True" />
+            <SelectField field="brand_name" selected="True" />
+            <SelectField field="loves_count" selected="True" />
+            <SelectField field="rating" selected="True" />
+            <SelectField field="reviews" selected="True" />
+            <SelectField field="price_usd" selected="True" />
+            <SelectField field="limited_edition" selected="True" />
+            <SelectField field="new" selected="True" />
+            <SelectField field="online_only" selected="True" />
+            <SelectField field="out_of_stock" selected="True" />
+            <SelectField field="sephora_exclusive" selected="True" />
+            <SelectField field="primary_category" selected="True" />
+            <SelectField field="secondary_category" selected="True" />
+            <SelectField field="child_count" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>rating</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-02-19 04:16:34</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2025-02-19 04:16:34</StartDate>
+              <EndDate>2025-02-19 04:16:34</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([rating])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="774" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>secondary_category</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-02-19 04:17:24</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2025-02-19 04:17:24</StartDate>
+              <EndDate>2025-02-19 04:17:24</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([secondary_category])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1062" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_e0bc35ced30540289df144e36aa0cdac~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="570" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="author_id" order="Ascending" />
+            <Field field="product_id" order="Ascending" />
+            <Field field="submission_time" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>author_id - Ascending
+product_id - Ascending
+submission_time - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="666" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="author_id" />
+            <Field field="product_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\asira\AppData\Local\Temp\Alteryx\Engine_27288_a201e8f0e0724e4191c6b53f1cc60715_\Engine_27288_ad31a7a64a9d4f218dbff7634ecdcba6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="810" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="author_id" action="GroupBy" rename="author_id" />
+            <SummarizeField field="product_id" action="GroupBy" rename="product_id" />
+            <SummarizeField field="submission_time" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1950" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>CombinedFinalTable</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Create</OutputOption>
+            <Connection DcmType="ConnectionId">e5b6bf76-6ac5-4ed5-b49c-9778cb2bdb6e</Connection>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:MSSQLSERVER1
+Table=CombinedFinalTable</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="#1">
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="26" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="26" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Join" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Left" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Unique" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FinalSephora</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c4e00c2c-0dcf-4383-a080-5c1c243b6ff7" />
+      <Telemetry>
+        <PreviousWorkflowId value="37fb9516-6ec7-4e44-b1e5-ec80dda791b8" />
+        <OriginWorkflowId value="2cba48aa-b5ee-425b-8e57-03abd125f298" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
